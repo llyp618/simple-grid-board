@@ -54,7 +54,8 @@ export default () => (
         w: 3,
         h: 3,
         render: (item, ph) => {
-          const src = item.x < 2 || ph?.x < 2 ? '/simple-grid-board/img/p2.jpg' : '/simple-grid-board/img/p3.jpg';
+          const x = ph?.x ?? item.x
+          const src = x < 2 ? '/simple-grid-board/img/p2.jpg' : '/simple-grid-board/img/p3.jpg';
           return <img draggable={false} src={src} />;
         },
       },
@@ -70,7 +71,8 @@ export default () => (
         w: 2,
         h: 2,
         render: (item, ph) => {
-          return item.x < 3 || ph?.x < 3 ? 'I am on the left' : 'I am on the right';
+          const x = ph?.x ?? item.x
+          return x < 3 ? 'I am on the left' : 'I am on the right';
         },
       },
       { id: 'y', x: 3, y: 1, w: 1, h: 2 },
