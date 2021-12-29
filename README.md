@@ -50,7 +50,7 @@ interface GBProps {
 | h       | number                           | height of the item ,range 1 - row       |
 | render? | (item, placeholder) => ReactNode | the element children of the item        |
 
-#### demo
+#### Demo
 
 ```js
 import React from 'react';
