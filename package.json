@@ -1,6 +1,11 @@
 {
   "name": "simple-grid-board",
   "version": "1.0.0",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "es"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -16,6 +21,8 @@
     "type": "git",
     "url": "https://github.com/llyp618/simple-grid-board.git"
   },
+  "author": "llyp618",
+  "license": "MIT",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "gitHooks": {
