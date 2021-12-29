@@ -9,6 +9,7 @@
 
 # production
 /es
+/docs-dist
 /lib
 
 
