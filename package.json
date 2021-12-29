@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "simple-grid-board",
   "version": "1.0.0",
   "scripts": {
@@ -12,6 +11,10 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llyp618/simple-grid-board.git"
   },
   "module": "es/index.js",
   "typings": "es/index.d.ts",

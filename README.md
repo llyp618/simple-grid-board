@@ -97,3 +97,4 @@ export default () => (
   />
 );
 ```
+for more demo: see [DEMO](https://llyp618.github.io/simple-grid-board/grid-board)
