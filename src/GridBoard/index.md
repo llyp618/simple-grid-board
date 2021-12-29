@@ -54,7 +54,7 @@ export default () => (
         w: 3,
         h: 3,
         render: (item, ph) => {
-          const src = item.x < 2 || ph?.x < 2 ? '/img/p2.jpg' : '/img/p3.jpg';
+          const src = item.x < 2 || ph?.x < 2 ? '/simple-grid-board/img/p2.jpg' : '/simple-grid-board/img/p3.jpg';
           return <img draggable={false} src={src} />;
         },
       },
