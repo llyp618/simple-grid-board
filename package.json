@@ -6,6 +6,7 @@
     "lib",
     "es"
   ],
+  "keywords": ["react", "grid", "layout", "board"],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
