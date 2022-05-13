@@ -1,12 +1,17 @@
 {
   "name": "simple-react-grid-board",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "files": [
     "lib",
     "es"
   ],
-  "keywords": ["react", "grid", "layout", "board"],
+  "keywords": [
+    "react",
+    "grid",
+    "layout",
+    "board"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
